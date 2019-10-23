@@ -313,7 +313,7 @@ go build agenda.go
 ./agenda --help
 ```
 
-![1](.\img\1.png)
+![1](./img/1.png)
 
 尝试注册账号。
 
@@ -321,7 +321,7 @@ go build agenda.go
 ./agenda register
 ```
 
-![2](.\img\2.png)
+![2](./img/2.png)
 
 注册账号。
 
@@ -329,7 +329,7 @@ go build agenda.go
 ./agenda register -uliang -p123456
 ```
 
-![3](.\img\3.png)
+![3](./img/3.png)
 
 显示用户名已经被使用，那么用 `listUser` 指令看一下有哪些用户。
 
@@ -337,7 +337,7 @@ go build agenda.go
 ./agenda listUser
 ```
 
-![4](.\img\4.png)
+![4](./img/4.png)
 
 再注册一个账号。
 
@@ -345,11 +345,11 @@ go build agenda.go
 ./agenda register -uli -p123456 -eli@gmail.com -t13313131414
 ```
 
-![6](.\img\6.png)
+![6](./img/6.png)
 
 登录账号。
 
-![7](.\img\7.png)
+![7](./img/7.png)
 
 显示登录成功。
 
