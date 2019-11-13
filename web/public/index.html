@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Golang Web</title>
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <form class="form" id="register-form">
+    <div class="input"><input type="text" id="username" placeholder="Username" /></div>
+    <div class="input"><input type="text" id="password" placeholder="Password" /></div>
+    <div class="input"><input type="email" id="email" placeholder="Email" /></div>
+    <div class="input"><input type="tel" id="phone" placeholder="Phone" /></div>
+    <button class="button" type="reset">Reset</button>
+    <button class="button" type="submit" onclick="register()">Submit</button>
+  </form>
+</body>
+
+<script>
+$(document).ready(function () {
+  document.getElementById("register-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    let username = $("#username")[0].value;
+    let email = $("#email")[0].value;
+    let phone = $("#phone")[0].value;
+    window.location.href = `/user?username=${username}&email=${email}&phone=${phone}`;
+  });
+});
+</script>
+</html>
