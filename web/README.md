@@ -182,21 +182,21 @@ $(document).ready(function () {
 
 | 填写前                                        | 填写后                                        |
 | :-------------------------------------------- | :-------------------------------------------- |
-| ![1](E:\code\Service-Computing\web\img\1.png) | ![1](E:\code\Service-Computing\web\img\2.png) |
+| ![1](./img/1.png) | ![1](./img/2.png) |
 
 ### 信息页面
 
 | 点击Submit按钮                                |
 | --------------------------------------------- |
-| ![1](E:\code\Service-Computing\web\img\3.png) |
+| ![1](./img/3.png) |
 | **手动填写URL**                               |
-| ![1](E:\code\Service-Computing\web\img\4.png) |
+| ![1](./img/4.png) |
 
 ### Unknown
 
 | unknow                                        |
 | --------------------------------------------- |
-| ![5](E:\code\Service-Computing\web\img\5.png) |
+| ![5](./img/5.png) |
 
 
 
